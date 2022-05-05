@@ -1,0 +1,12 @@
+inputchieudai = prompt("Nhap chieu dai");
+inputchieurong = prompt("Nhap chieu rong");
+let dai = parseInt(inputchieudai);
+let rong =  parseInt(inputchieurong);
+let dientich = dai*rong;
+document.write("Dien tich S=" + dientich);
+// inputWidth = prompt("Enter the width");
+// inputHeight = prompt("Enter the height");
+// let width = parseInt(inputWidth);
+// let height = parseInt(inputHeight);
+// let area = width * height;
+// document.write("The area is: " + area);
